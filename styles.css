@@ -1,0 +1,71 @@
+body {
+    background-color: LightGrey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+h1 {
+    font-size: 32pt;
+    color: black;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20pt;
+    color: black;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 18pt;
+    color: black;
+}
+
+h4 {
+    font-size: 16pt;
+    color: black;
+}
+
+h5 {
+    font-size: 15pt;
+    color: black;
+}
+
+h6 {
+    font-size: 14pt;
+    color: black;
+}
+
+p {
+    font-size: 12pt;
+    color: black;
+    font-weight: 400;
+}
+
+p::first-letter {
+    font-weight: 600;
+}
+
+a: link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
