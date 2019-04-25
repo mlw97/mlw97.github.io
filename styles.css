@@ -1,71 +1,78 @@
-body {
-    background-color: LightGrey;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-}
-
-.blue {
-    color: blue;
-}
-
-#red {
-    color: red;
-}
-
-h1 {
-    font-size: 32pt;
-    color: black;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 20pt;
-    color: black;
-    font-weight: 600;
-}
-
-h3 {
-    font-size: 18pt;
+* {
+    font-family: 'Open Sans', sans-serif;
     color: black;
 }
 
-h4 {
-    font-size: 16pt;
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+.navbar {
+    align: center;
+    background-color: #F3E378;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-light {
     color: black;
 }
 
-h5 {
-    font-size: 15pt;
+a.nav-link {
     color: black;
+    size: 1em;
 }
 
-h6 {
-    font-size: 14pt;
-    color: black;
+.quote {
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    font-style: italic;
 }
 
-p {
-    font-size: 12pt;
-    color: black;
-    font-weight: 400;
+.bar {
+    height: 300px;
 }
 
-p::first-letter {
-    font-weight: 600;
+.hours {
+    text-align: center;
 }
 
-a: link {
-    color: blue;
+.current {
+    display: inline-block;
 }
 
-a:visited {
-    color: purple;
+.current-burger {
+    height: 380px;
 }
 
-a:hover {
-    color: green;
+.top {
+    display: inline-block;
 }
 
-a:active {
-    color: red;
+footer {
+    background-color: #F3E378;
+}
+
+footer p {
+    display: inline-block;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.feedback {
+    text-align: center;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-body {
+    text-align: center;
 }
