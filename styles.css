@@ -76,3 +76,20 @@ footer p {
 .card-body {
     text-align: center;
 }
+
+.center {
+    text-align: center;
+}
+
+.food {
+    height: 200px;
+    width: 300px;
+}
+
+.btn {
+    background-color: #12A14A;
+}
+
+.btn:hover {
+    background-color: rgb(109, 212, 149);
+}
